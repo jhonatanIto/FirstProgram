@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora do JhonJhon</title>
+    <style>body {background-color: rgb(94, 204, 207);}</style>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    
+<section>
+    <div id="dadosCalculadora">
+        <p>insira um número: <input type="number" name="pN" id="pN"></p> 
+
+        <p>soma<input type="radio" name="escolha" id="soma"></p>
+        <p>subtração<input type="radio" name="escolha" id="subt"></p>
+        <p>multiplicação<input type="radio" name="escolha" id="mult"></p>
+        <p>divisão<input type="radio" name="escolha" id="divs"></p>
+        
+        <p>insira um número: <input type="number" name="sN" id="sN"></p>
+        <p><input type="button" value="Calcular" onclick="calcular()"></p>
+    </div>
+    <div id="res">Resultado:</div>
+    <br><br><br><br>
+    
+
+</section>
+<h1>Conversor de moedas</h1>
+<div id="conversor">
+    <p>Insira o valor:
+        <input type="number" name="valor" id="valor">
+    </p>
+    <p>converter de: 
+       <input type="radio" name="moedas" id="dolar">dólar
+       <input type="radio" name="moedas" id="yen">yen
+       <input type="radio" name="moedas" id="euro">euro
+       <input type="radio" name="moedas" id="real">real
+    </p>
+    <p>para:
+        <input type="radio" name="moedas2" id="dolar2">dólar
+        <input type="radio" name="moedas2" id="yen2">yen
+        <input type="radio" name="moedas2" id="euro2">euro
+        <input type="radio" name="moedas2" id="real2">real
+    </p>
+    <p><input type="button" value="Calcular" onclick="calcularMoeda()"></p>
+</div>
+<div id="resM">Resultado:</div>
+
+
+<script src="treino.script.js"></script>
+   
+    
+    
+</body>
+</html>
